@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripccion</title>
+   <link rel="stylesheet" href="/css/styles1.css">
+</head>
+
+<body>
+    <img src="./imagenes/nysl_logo.png" alt="logo">
+    <header>
+        <h1>Northside Youth Soccer League</h1>
+    </header>
+
+    <h2>Formulario de Inscripccion</h2>
+    <ul>
+        <li><a href="/index.html"> Inicio </a></li>
+        <li><a href="/about.html"> Acerca de NYSL </a></li>
+        <li><a href="/contact.html"> Contacto </a></li>
+        <li><a href="/reglas&politicas.html">Reglas y Politicas</a></li>
+        <li><a href="/informacion.html">Informacion del juego</a></li>
+        <li><a href="/formulario.html">Formulario de inscripcion</a></li>
+
+    </ul>
+
+    <div class="formulario">
+
+        <h4>Formulario de Inscripción</h4><br>
+
+        <form action="show_data.html" method="get">
+            
+            <label for="nombre">Nombre del Jugador:</label>
+            <input type="text" id="nombre" name="Nombre" />
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="Apellido" /><br><br>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" /><br><br>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" />
+            <label for="cpostal">Código Postal:</label>
+            <input type="number" id="cpostal" name="codigo postal" /><br><br>
+            <label for="nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="nacimiento" name="fecha nacimiento" placeholder="dd/mm/aaaa" />
+            Género:
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label>
+            <br>
+            <br> Grado:
+            <input type="radio" id="pregrado" name="grado" value="pregrado">
+            <label for="pregrado">Preescolar</label>
+            <input type="radio" id="g1" name="grado" value="1ro">
+            <label for="g1">1°</label>
+            <input type="radio" id="g2" name="grado" value="2do">
+            <label for="g2">2°</label>
+            <input type="radio" id="g3" name="grado" value="3ro">
+            <label for="g3">3°</label>
+            <input type="radio" id="g4" name="grado" value="4to">
+            <label for="g4">4°</label>
+            <input type="radio" id="g5" name="grado" value="5to">
+            <label for="g5">5°</label><br><br>
+
+            <h3>¿De que escuela vives mas cerca?</h3><br>
+            <label for="escuela">Escuela más cercana:</label>
+            <input list="escuela" name="escuela" placeholder="seleccione escuela ">
+            <datalist id="escuela">
+                <option value="AJ Katzenmaier">
+                <option value="Greenbay">
+                <option value="Howard A Yeager">
+                <option value="Marjorie P Hart">
+                <option value="North Elementary">
+                <option value="South Elementary">
+            </datalist><br><br>
+
+            <h3>¿Qué posición(es) juegas normalmente?
+                <br>(marque todas las que correspondan)
+            </h3><br>
+            <input type="checkbox" id="posicion_juego" name="posicion_juego" value="delantero">
+            <label for="posicion_juego">Delantero</label>
+            <input type="checkbox" id="posicion_juego" name="posicion_juego" value="medio_campo">
+            <label for="posicion_juego">Medio Campo</label><br>
+            <input type="checkbox" id="posicion_juego" name="posicion_juego" value="Portero">
+            <label for="posicion_juego">Portero</label>
+            <input type="checkbox" id="posicion_juego" name="posicion_juego" value="defensa">
+            <label for="posicion_juego">Defensa</label><br><br>
+
+            <h3>Tamaño uniforme:</h3><br>
+            <input type="radio" id="uniforme" name="uniforme" value="Niño P">
+            <label for="uniforme">Niño P</label>
+            <input type="radio" id="uniforme" name="uniforme" value="Mediano">
+            <label for="uniforme">Mediano</label><br>
+            <input type="radio" id="uniforme" name="uniforme" value="Niño M">
+            <label for="uniforme">Niño M</label>
+            <input type="radio" id="uniforme" name="uniforme" value="Grande">
+            <label for="uniforme">Grande</label><br>
+            <input type="radio" id="uniforme" name="uniforme" value="Niño G">
+            <label for="uniforme">Niño G</label>
+            <input type="radio" id="uniforme" name="uniforme" value="Extra-Grande">
+            <label for="uniforme">Extra-Grande</label><br>
+            <input type="radio" id="uniforme" name="uniforme" value="Pequeño">
+            <label for="uniforme">Pequeño</label><br><br>
+
+            <h3>Permiso para jugar</h3><br>
+            <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de
+                registro y
+                yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la
+                posibilidad
+                de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de
+                registro
+                para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados
+                y
+                personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos,
+                contra
+                cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+                solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+            </p><br>
+            <p>Ingresando su nombre abajo, acuerdo y autorizo lo anterior. Además, Ingresando su nombre abajo,
+                reconozco
+                que he leído la política de cancelación y acepto sus términos.</p><br>
+            <strong> Nombre Padre / Tutor:
+                <textarea name="autorizacion" id="message" rows="1" cols="30"
+                    placeholder="Ingrese Nombre Padre/Tutor Aquí"></textarea>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+            </strong><br>
+            <br><input type="submit" />
+        </form>
+    </div>
+
+</body>
+
+</html>

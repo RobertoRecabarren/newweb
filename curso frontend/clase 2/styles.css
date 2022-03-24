@@ -1,0 +1,13 @@
+body{background-color: green; background-repeat: no-repeat; 
+    background-size: 100%;}
+h1 {font-family: 'Courier New', Courier, monospace; color: greenyellow;font-size: 30 px; margin: 0px;padding:20px 0;text-shadow: 3px 3px 1px black}
+h2 {color: greenyellow;text-align:center; text-shadow: 3PX 1.5PX 1PX black;}
+h3 {box ;color: greenyellow;}
+p{color: greenyellow;text-align: justify;text-decoration: solid;}
+button{background-color: transparent;}
+.cajadetexto{position: relative; display: block; background-color: #eee;padding:10px;color:#333;
+    margin-bottom:30px;}
+*header{background-size: 50px 100%;}
+*nav{}
+*section{}
+footer
